@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "mygamedevlearning",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "The repository for my game dev learning journal website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Zac Braddy",
   "dependencies": {
     "gatsby": "^2.20.12",
     "gatsby-image": "^2.3.1",
@@ -21,6 +21,7 @@
     "react-helmet": "^6.0.0"
   },
   "devDependencies": {
+    "firebase": "^7.14.1",
     "prettier": "2.0.4"
   },
   "keywords": [
@@ -38,9 +39,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/zacbraddy/mygamedevlearning"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/zacbraddy/mygamedevlearning/issues"
   }
 }
