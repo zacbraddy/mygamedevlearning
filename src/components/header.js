@@ -1,8 +1,8 @@
 import { useStaticQuery, graphql, Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
-import Logo from './logo'
-import NavLink from './atoms/nav-link'
+import Logo from './images/logo'
+import NavLinksList from './molecules/nav-links-list'
 
 const Header = ({ siteTitle }) => (
   <nav className="flex flex-wrap items-center justify-between p-4 bg-primary-400">
@@ -23,14 +23,7 @@ const Header = ({ siteTitle }) => (
         </svg>
       </button>
     </div>
-    <div className="flex-grow block w-full lg:flex lg:items-center lg:w-auto">
-      <div className="text-sm lg:flex-grow">
-        <NavLink href="/about-me">About Me</NavLink>
-        <NavLink href="/books">Books</NavLink>
-        <NavLink href="/videos">Videos</NavLink>
-        <NavLink href="/podcasts">Podcasts</NavLink>
-      </div>
-    </div>
+    <NavLinksList />
   </nav>
 )
 
