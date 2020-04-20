@@ -11,13 +11,13 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Section>
-      <h1 className="my-16 text-4xl text-center text-primary-400 font-heading md:my-32 md:text-5xl">
+      <header className="my-16 text-4xl font-bold text-center text-primary-400 font-heading md:my-32 md:text-5xl">
         ZackerTheHacker's Game Dev Journal
-      </h1>
+      </header>
     </Section>
     <Section className="bg-primary-400">
       <div className="flex flex-col items-center w-full my-16">
-        <div class="font-heading font-bold text-inverse mb-8 text-4xl md:text-4xl">
+        <div className="mb-8 text-4xl font-bold font-heading text-inverse md:text-4xl">
           About Me
         </div>
         <div className="flex flex-col-reverse items-center w-full mb-4 lg:flex-row lg:justify-between">
@@ -38,7 +38,7 @@ const IndexPage = () => (
             </div>
             <Arrow className="fill-tertiary stroke-secondary" />
           </div>
-          <div class="max-w-xs mb-8 lg:mb-0">
+          <div className="max-w-xs mb-8 lg:mb-0">
             <img className="rounded-full" src={zacPhoto} alt="A photo of zac" />
           </div>
         </div>

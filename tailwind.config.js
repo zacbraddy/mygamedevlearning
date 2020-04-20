@@ -59,6 +59,9 @@ module.exports = {
         secondary: SECONDARY400,
         tertiary: TERTIARY400,
       },
+      height: {
+        '72': '18rem',
+      },
     },
     variants: {},
     plugins: [],
