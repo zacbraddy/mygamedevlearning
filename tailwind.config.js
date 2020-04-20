@@ -20,6 +20,18 @@ module.exports = {
         },
         inverse: '#444',
       },
+      border: {
+        primary: {
+          400: PRIMARY400,
+        },
+        secondary: {
+          400: SECONDARY400,
+        },
+        tertiary: {
+          400: TERTIARY400,
+        },
+        inverse: '#444',
+      },
       textColor: {
         primary: {
           400: PRIMARY400,

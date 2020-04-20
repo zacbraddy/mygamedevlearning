@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div>
+      <div class="mt-24">
         <main className="bg-inverse">{children}</main>
         <footer></footer>
       </div>
