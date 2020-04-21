@@ -16,7 +16,7 @@ export default () => {
         <NavLogo />
         <NavMenuButton onClick={() => setMenuOpen(!menuOpen)} />
       </div>
-      <div class="mt-4 lg:mt-0">
+      <div className="mt-4 lg:mt-0">
         <NavLinksList />
       </div>
     </div>

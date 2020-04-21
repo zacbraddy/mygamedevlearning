@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import NavControl from '../organisms/NavControl'
+import React from 'react'
+import NavControl from '../organisms/nav-control'
 
 const Header = () => {
   return (
