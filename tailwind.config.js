@@ -1,3 +1,4 @@
+const PRIMARY200 = '#d2c3ff'
 const PRIMARY400 = '#9876ff'
 const PRIMARY500 = '#8667db'
 const SECONDARY400 = '#dd76ff'
@@ -10,6 +11,7 @@ module.exports = {
     extend: {
       colors: {
         primary: {
+          200: PRIMARY200,
           400: PRIMARY400,
         },
         secondary: {

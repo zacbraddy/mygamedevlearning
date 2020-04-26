@@ -1,20 +1,20 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Header from '../components/organisms/header'
-import Card from '../components/atoms/card'
 import Section from '../components/atoms/section'
-import CardHeaderRow from '../components/molecules/card-header-row'
 import zacPhoto from '../images/me.jpeg'
 import ExternalLink from '../components/atoms/external-link'
+import ImageHeaderCard from '../components/organisms/ImageHeaderCard'
 
 export default () => (
   <Layout>
     <Header>About</Header>
     <Section>
-      <Card>
-        <CardHeaderRow src={zacPhoto} alt="Zac giving a big thumbs up">
-          Everything you ever wanted to know about me and this site
-        </CardHeaderRow>
+      <ImageHeaderCard
+        headerSrc={zacPhoto}
+        headerAlt="Zac giving a big thumbs up"
+        headerText="Everything you ever wanted to know about me and this site"
+      >
         <div className="p-4 text-sm font-bold text-primary-400">
           <p>
             Hey, I'm Zac. In some places I call myself ZackerTheHacker and other
@@ -79,7 +79,7 @@ export default () => (
             give them a leg up on their learning
           </p>
         </div>
-      </Card>
+      </ImageHeaderCard>
     </Section>
   </Layout>
 )
