@@ -18,6 +18,7 @@ module.exports = {
         tertiary: {
           400: TERTIARY400,
         },
+        muted: '#fafafa',
         inverse: '#444',
       },
       border: {

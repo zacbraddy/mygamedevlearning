@@ -10,7 +10,7 @@ import PropTypes from 'prop-types'
 import { useStaticQuery, graphql } from 'gatsby'
 import '../utils/global.css'
 
-import Header from './templates/header'
+import Nav from './templates/nav'
 import Footer from './templates/footer'
 
 const Layout = ({ children }) => {
@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Nav siteTitle={data.site.siteMetadata.title} />
       <div className="mt-24">
         <main className="bg-inverse">{children}</main>
       </div>

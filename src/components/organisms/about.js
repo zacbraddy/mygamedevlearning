@@ -7,10 +7,10 @@ import Arrow from '../images/arrow'
 export default () => (
   <Section className="bg-primary-400">
     <SectionContent
-      heading="About Me"
+      heading="About Stuff"
       headingColour="text-inverse"
-      buttonHref="/about-me"
-      buttonText="Wanna read more about me?"
+      buttonHref="/about"
+      buttonText="Wanna read about me and this site?"
     >
       <div className="max-w-sm mb-8 text-lg font-bold font-body text-inverse lg:mb-0">
         Hey! I'm Zac

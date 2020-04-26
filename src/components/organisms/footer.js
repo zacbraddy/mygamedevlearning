@@ -4,7 +4,7 @@ import Github from '../images/github'
 
 export default () => {
   return (
-    <div className="flex flex-col justify-center w-full h-48">
+    <div className="flex flex-col items-center justify-center w-full h-48">
       <div className="mb-8 text-lg font-bold text-tertiary-400">
         Wanna get in touch with me?
       </div>
