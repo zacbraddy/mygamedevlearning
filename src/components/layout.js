@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 import '../utils/global.css'
 
 import Header from './templates/header'
+import Footer from './templates/footer'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,8 +29,8 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="mt-24">
         <main className="bg-inverse">{children}</main>
-        <footer></footer>
       </div>
+      <Footer />
     </>
   )
 }

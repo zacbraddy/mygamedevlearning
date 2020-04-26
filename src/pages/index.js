@@ -5,6 +5,8 @@ import SEO from '../components/seo'
 import Section from '../components/atoms/section'
 import AboutMe from '../components/organisms/about-me'
 import Books from '../components/organisms/books'
+import Videos from '../components/organisms/videos'
+import Podcasts from '../components/organisms/podcasts'
 
 const IndexPage = () => (
   <Layout>
@@ -16,6 +18,8 @@ const IndexPage = () => (
     </Section>
     <AboutMe />
     <Books />
+    <Videos />
+    <Podcasts />
   </Layout>
 )
 

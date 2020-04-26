@@ -1,31 +1,31 @@
 import React from 'react'
 import Section from '../atoms/section'
 import SectionContent from '../molecules/section-content'
-import BookHeart from '../images/book-heart'
+import MicrophoneAlt from '../images/microphone-alt'
 
 export default () => (
   <Section className="bg-inverse">
     <SectionContent
-      heading="I read books!"
+      heading="I listen to podcasts!"
       headingColour="text-primary-400"
-      butttonHref="/books"
-      buttonText="Check out all dem book I read"
+      butttonHref="/podcasts"
+      buttonText="I wanna hear those"
       invertOnMobile={true}
     >
       <div className="flex items-center justify-center w-64 h-64 max-w-xs mb-8 border-8 rounded-full lg:mb-0 text-inverse bg-tertiary-400 border-secondary-400">
-        <BookHeart className="w-32 h-32 fill-current stroke-current" />
+        <MicrophoneAlt className="w-32 h-32 fill-current stroke-current" />
       </div>
       <div className="max-w-sm mb-8 text-lg font-bold font-body text-primary-400 lg:mb-0">
-        I read like....
-        <br />
-        ...
-        <br />
-        ...a metric heck tonne of books
+        Podcasts seem like the best mix of books and videos
         <br />
         <br />
-        Might make me a weird Game Dev
+        They are popular but also they talk about
         <br />
-        <br />I just think books give your learning a great structure
+        stuff in a more structured way
+        <br />
+        <br />
+        <br />
+        This is probably how I'll learn the most
       </div>
     </SectionContent>
   </Section>

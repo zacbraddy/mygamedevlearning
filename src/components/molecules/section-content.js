@@ -7,6 +7,7 @@ export default ({
   children,
   buttonHref,
   buttonText,
+  invertOnMobile,
 }) => (
   <div className="flex flex-col items-center w-full my-16">
     <div
@@ -14,7 +15,11 @@ export default ({
     >
       {heading}
     </div>
-    <div className="flex flex-col-reverse items-center w-full mb-4 lg:flex-row lg:justify-between">
+    <div
+      className={`flex ${
+        invertOnMobile ? 'flex-col' : 'flex-col-reverse'
+      } items-center w-full mb-4 lg:flex-row lg:justify-between`}
+    >
       {children}
     </div>
     <PageLink href={buttonHref}>{buttonText}</PageLink>
