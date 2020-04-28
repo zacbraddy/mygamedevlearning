@@ -17,9 +17,11 @@ export default () => (
       suggested to me by Ivory lion games on the Games Dev Underground discord.
     </Section>
     <Section>
-      {podcastContent.map((podcast, idx) => (
-        <ReviewItem key={idx} {...podcast} />
-      ))}
+      {podcastContent
+        .sort((a, b) => b.score - a.score)
+        .map((podcast, idx) => (
+          <ReviewItem key={idx} {...podcast} />
+        ))}
     </Section>
   </Layout>
 )
