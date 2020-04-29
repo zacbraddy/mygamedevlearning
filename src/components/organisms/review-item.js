@@ -1,5 +1,5 @@
 import React from 'react'
-import ImageHeaderCard from './ImageHeaderCard'
+import ImageHeaderCard from './image-header-card'
 import Tag from '../atoms/tag'
 import ReviewContainer from '../molecules/review-container'
 import EpisodeReviewRow from '../molecules/episode-review-row'

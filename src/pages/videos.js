@@ -2,6 +2,8 @@ import React from 'react'
 import Layout from '../components/layout'
 import Header from '../components/organisms/header'
 import Section from '../components/atoms/section'
+import VideoReviewItem from '../components/organisms/video-review-item'
+import videoContent from '../content/videos'
 
 export default () => (
   <Layout>
@@ -14,6 +16,12 @@ export default () => (
       the videos and YouTube channels I've found with good info and that I find
       entertaining and with hosts that seem knowledgable.
     </Section>
-    <Section></Section>
+    <Section>
+      {videoContent
+        .sort((a, b) => b.score - a.score)
+        .map((video, idx) => (
+          <VideoReviewItem key={idx} {...video} />
+        ))}
+    </Section>
   </Layout>
 )

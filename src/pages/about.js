@@ -4,7 +4,7 @@ import Header from '../components/organisms/header'
 import Section from '../components/atoms/section'
 import zacPhoto from '../images/me.jpeg'
 import ExternalLink from '../components/atoms/external-link'
-import ImageHeaderCard from '../components/organisms/ImageHeaderCard'
+import ImageHeaderCard from '../components/organisms/image-header-card'
 
 export default () => (
   <Layout>

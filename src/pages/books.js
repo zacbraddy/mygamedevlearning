@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import Header from '../components/organisms/header'
 import Section from '../components/atoms/section'
 import bookContent from '../content/books'
-import ReviewItem from '../components/organisms/ReviewItem'
+import ReviewItem from '../components/organisms/review-item'
 
 export default () => (
   <Layout>
