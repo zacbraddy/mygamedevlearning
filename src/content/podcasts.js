@@ -7,7 +7,7 @@ export default [
     headerAlt: 'The podcast art of Game design dojo',
     headerText: 'The Game Design Dojo podast with Brian & Ike',
     content: `My initial impressions of these guys is that they know there stuff about games design. However they've chosen to speak a lot about the business of games in the early episodes which isn't really want I'm listening to them for and not what I expected from a podcast with Game Design in the title. I hope things change in future episodes`,
-    score: 23.5,
+    score: 37,
     tags: ['Watercooler style chat', 'Podfaded'],
     episodeReviews: [
       {
@@ -20,6 +20,11 @@ export default [
         episodeTitle: 'Self Publishing vs Mobile Publisher Part 2',
         content: `This episode felt slightly more relevant although again, I don't feel I understand enough yet about the games business to apply this. There wasn't a lot to learn here about game design itself they spent the time talking about whether or not you should go for a publisher or not. It seems from what they say that publishers are a bit of a dying breed, in the mobile space at least. It seems the barrier to entry to make games isn't what it used to be which reduces some of the power that publishers once had over developers and game creators in general`,
         score: 35,
+      },
+      {
+        episodeTitle: 'Forming an Indie Video Game Studio',
+        content: `Now we're starting to get somewhere this podcast. This episode was still not necessarily about game design (three episodes in!) but I found this information a lot more useful. As a software developer I do have some experience working on software in teams and it was good to hear that working on games in teams is not different. This episode spoke about starting a games team. It was suggested that you begin on the cheap and online rather that buying big offices on day one. They spoke about the fact that you team should cover each of the three core skill sets being Progamming, Art and Game Design and if you didn't have one of those it was best to wait until you did. This is no different to software having people who's score skill set covers off a certain capability you need in super important. That said I also work in start ups where you don't always have that luxury. Whilst I agree that covering off core skill sets is a great way to accelerate your success, you can definitely be successful without it. They also spoke about when you should make things official and they said pretty much straight away! This got me thinking about how my own journey might go, how long do I play in the sand before taking my first steps properly into the playground. Anyway there was a lot of food for thought here even if it wasn't necessarily about game design. Things are looking up for this podcast.`,
+        score: 64,
       },
     ],
   },
