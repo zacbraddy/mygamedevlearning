@@ -8,7 +8,7 @@ export default () => (
     <SectionContent
       heading="I read books!"
       headingColour="text-primary-400"
-      butttonHref="/books"
+      buttonHref="/books"
       buttonText="Check out all dem book I read"
       invertOnMobile={true}
     >

@@ -8,7 +8,7 @@ export default () => (
     <SectionContent
       heading="I listen to podcasts!"
       headingColour="text-primary-400"
-      butttonHref="/podcasts"
+      buttonHref="/podcasts"
       buttonText="I wanna hear those"
       invertOnMobile={true}
     >

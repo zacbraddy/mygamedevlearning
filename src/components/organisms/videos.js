@@ -8,7 +8,7 @@ export default () => (
     <SectionContent
       heading="I watch videos!"
       headingColour="text-inverse"
-      butttonHref="/videos"
+      buttonHref="/videos"
       buttonText="Those vidyas I wanna hear bout em"
     >
       <div className="max-w-sm mb-8 text-lg font-bold font-body text-inverse lg:mb-0">
