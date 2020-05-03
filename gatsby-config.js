@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `My Game Dev Learning`,
-    description: `A website where a accompished software dev takes his fledgling steps into games development and records his learnings`,
+    description: `A website where an accompished software dev takes his fledgling steps into games development and records his learnings`,
     author: `@ZackerTheHacker`,
   },
   plugins: [
