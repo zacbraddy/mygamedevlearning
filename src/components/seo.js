@@ -61,6 +61,10 @@ function SEO({ description, lang, meta, title }) {
           content: `Zacker the Hacker's Game Dev Learning Journal`,
         },
         {
+          property: `og:image`,
+          content: `https://mygamedevlearning.web.app${logo}`,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
