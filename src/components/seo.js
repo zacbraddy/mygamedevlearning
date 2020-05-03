@@ -78,7 +78,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:image`,
-          content: logo,
+          content: `https://mygamedevlearning.web.app${logo}`,
         },
       ].concat(meta)}
     />
