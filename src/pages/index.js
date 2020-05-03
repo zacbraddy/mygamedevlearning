@@ -10,8 +10,8 @@ import Header from '../components/organisms/header'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <Header>ZackerTheHacker's Game Dev Journal</Header>
+    <SEO title="Zacker the Hacker's Game Dev Learning Journal" />
+    <Header>ZackerTheHacker's Game Dev Learning Journal</Header>
     <About />
     <Books />
     <Videos />
