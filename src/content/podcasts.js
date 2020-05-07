@@ -7,7 +7,7 @@ export default [
     headerAlt: 'The podcast art of Game design dojo',
     headerText: 'The Game Design Dojo podast with Brian & Ike',
     content: `My initial impressions of these guys is that they know there stuff about games design. However they've chosen to speak a lot about the business of games in the early episodes which isn't really want I'm listening to them for and not what I expected from a podcast with Game Design in the title. I hope things change in future episodes`,
-    score: 37,
+    score: 48,
     tags: ['Watercooler style chat', 'Podfaded'],
     episodeReviews: [
       {
@@ -25,6 +25,11 @@ export default [
         episodeTitle: 'Forming an Indie Video Game Studio',
         content: `Now we're starting to get somewhere this podcast. This episode was still not necessarily about game design (three episodes in!) but I found this information a lot more useful. As a software developer I do have some experience working on software in teams and it was good to hear that working on games in teams is not different. This episode spoke about starting a games team. It was suggested that you begin on the cheap and online rather that buying big offices on day one. They spoke about the fact that you team should cover each of the three core skill sets being Progamming, Art and Game Design and if you didn't have one of those it was best to wait until you did. This is no different to software having people who's score skill set covers off a certain capability you need in super important. That said I also work in start ups where you don't always have that luxury. Whilst I agree that covering off core skill sets is a great way to accelerate your success, you can definitely be successful without it. They also spoke about when you should make things official and they said pretty much straight away! This got me thinking about how my own journey might go, how long do I play in the sand before taking my first steps properly into the playground. Anyway there was a lot of food for thought here even if it wasn't necessarily about game design. Things are looking up for this podcast.`,
         score: 64,
+      },
+      {
+        episodeTitle: 'The power of foucs testing',
+        content: `Another episod that isn't really about game design but I'm starting to settle into the concept of what the show is going for and I did find this useful. In this episode they talk about focus testing as an indie game developer. It seems like pretty much your options are what is traditionally known as "hallway testing" or releasing an MVP to a small group in the wild. I hadn't thought of this myself but it makes perfect sense and is backed by other industries. What they are essentially talking about is Lean design/engineering principles, getting your product into the hands of the consumer and letting them tell you what they want rather than assuming you know what they want. This is really good advice, even though I had previously heard it I found it useful to be invited to apply my knowledge to this field as well and know that it will work`,
+        score: 82,
       },
     ],
   },

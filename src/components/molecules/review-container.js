@@ -5,7 +5,7 @@ export default ({ children }) => {
   return (
     <div className="border-t-2 border-secondary-400">
       <div className="text-lg font-bold text-center text-primary-400">
-        Episode Reviews
+        Reviews
       </div>
       <div className="flex justify-center my-8">
         <button
